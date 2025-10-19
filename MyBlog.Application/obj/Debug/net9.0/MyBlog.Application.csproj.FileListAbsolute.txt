@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\bin\Debug\net9.0\MyBlog.Application.deps.json
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\bin\Debug\net9.0\MyBlog.Application.runtimeconfig.json
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\bin\Debug\net9.0\MyBlog.Application.dll
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\bin\Debug\net9.0\MyBlog.Application.pdb
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.AssemblyInfo.cs
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.dll
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\refint\MyBlog.Application.dll
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.pdb
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\MyBlog.Application.genruntimeconfig.cache
+C:\Users\PC\Desktop\MyBlog\MyBlog.Application\obj\Debug\net9.0\ref\MyBlog.Application.dll

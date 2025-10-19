@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noway | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/hero-keyboard.css">
+
+</head>
+<body>
+    <!-- Canvas nền vũ trụ -->
+    <canvas id="starfield"></canvas>
+
+    <!-- Góc menu -->
+    <div class="top-left-menu">
+        <div class="menu-icon">
+            🌙 <span>Menu</span>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Dropdown menu -->
+        <ul class="dropdown">
+            <li><a href="#posts">Blog</a></li>
+            <li><a href="mailto:tandung29022004@gmail.com">Contact</a></li>
+            <li><a href="https://github.com/nowaydeptrai" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <h2>Hi, I am</h2>
+                <h1>Noway</h1>
+                <h3>A Full-Stack & Network Developer</h3>
+                <div class="buttons">
+                    <a href="/resume.pdf" class="btn primary">📄 Resume</a>
+                    <a href="mailto:tandung29022004@gmail.com" class="btn secondary">💬 Hire Me</a>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/nowaydeptrai">GitHub</a>
+                    <a href="https://linkedin.com">LinkedIn</a>
+                </div>
+            </div>
+
+            <div id="keyboard3d" style="width:400px; height:300px; position:absolute; right:5%; top:40%;"></div>
+        </div>
+    </section>
+
+
+
+
+    <section id="posts" class="posts-section">
+        <h2 class="section-title">Latest Posts</h2>
+        <div id="post-list" class="post-grid">
+            <p>Đang tải bài viết...</p>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="/images/AboutMe/Noway.jpg" alt="Noway Developer" />
+            </div>
+            <div class="about-content">
+                <h2>Về Noway</h2>
+                <p>
+                    Tôi là <strong>Nguyen Tan Dung (Noway)</strong> — một lập trình viên full-stack đam mê sáng tạo và tối ưu hoá hệ thống.
+                    Với nền tảng trong <strong>phát triển mạng máy tính</strong> và <strong>xây dựng ứng dụng web đa tầng</strong>,
+                    tôi luôn hướng đến việc kết hợp kỹ thuật và trải nghiệm người dùng để tạo ra sản phẩm hoàn thiện nhất.
+                </p>
+                <p>
+                    Tôi yêu thích việc chia sẻ kiến thức qua các dự án mã nguồn mở, blog kỹ thuật, và nghiên cứu các chủ đề như
+                    <em>Canvas LMS API</em>, <em>Static Site Generator</em>, và <em>DevOps tự động hóa</em>.
+                </p>
+
+                <ul class="about-list">
+                    <li>💡 Tư duy hệ thống & phân tích mạng</li>
+                    <li>⚙️ Triển khai ứng dụng ASP.NET Core & Node.js</li>
+                    <li>🧭 Thiết kế giao diện hiện đại, tương tác động</li>
+                </ul>
+
+                <a href="mailto:tandung29022004@gmail.com" class="btn primary">Liên hệ tôi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Contact Form</h2>
+            <p>
+                Liên hệ trực tiếp qua email
+                <a href="mailto:tandung29022004@gmail.com">tandung29022004@gmail.com</a>
+                hoặc gửi thông tin của bạn bên dưới.
+            </p>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+
+                <p class="privacy-note">
+                    I’ll never share your data with anyone else. Pinky promise! 🤞
+                </p>
+
+                <button type="submit" class="btn primary">Send Message →</button>
+            </form>
+
+            <p id="formStatus" class="form-status"></p>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p> Được xây dựng và phát triển bởi <strong>Nguyen Tan Dung</strong></p>
+    </footer>
+
+    <!-- Script -->
+    <script src="/js/three.module.min.js" type="module"></script>
+    <script src="/js/hero-keyboard.js" type="module"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/posts.js"></script>
+
+</body>
+</html>

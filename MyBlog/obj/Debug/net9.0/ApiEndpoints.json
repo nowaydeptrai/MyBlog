@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "MyBlog.Controllers.HomeApiController",
+    "Method": "GetLatestPosts",
+    "RelativePath": "api/home/posts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyBlog.Controllers.HomeApiController",
+    "Method": "GetWelcomeMessage",
+    "RelativePath": "api/home/welcome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

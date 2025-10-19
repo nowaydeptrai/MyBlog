@@ -1,0 +1,3 @@
+C:\Users\PC\Desktop\MyBlog\MyBlog\wwwroot\js\three.module.min.js
+C:\Users\PC\Desktop\MyBlog\MyBlog\wwwroot\js\hero-keyboard.js
+C:\Users\PC\Desktop\MyBlog\MyBlog\wwwroot\js\three.min.js
